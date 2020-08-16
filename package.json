@@ -1,0 +1,20 @@
+{
+  "name": "EtsyAssessment",
+  "version": "0.0.1",
+  "description": "Application to track etsy store updates over time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "author": "Zain Syed",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "commander": "^2.14.0",
+    "deep-diff": "^0.3.8",
+    "deep-equal": "^1.0.1",
+    "express": "^4.17.1",
+    "expresss": "0.0.0",
+    "mocha": "^8.1.1"
+  }
+}
