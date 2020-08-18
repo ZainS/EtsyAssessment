@@ -73,10 +73,21 @@ RESPONSE & LOGS: We provide web response and logs.
   }
 ```
 
-##Improvements to be made
-- Deploy and demonstrate on AWS
+##Challenges
+- File services and Deepdiff
+
+##Proudof
+- Build report function. I tend to run away from file writing and I did not know about Deepdiff. I am proud I was able to research this.
+
+##NotProudof
+- The logger function and Testing
+- Did not have time to make a proper front end or UI and forcing people to use postman.
+
+##Deploying and Improvements
+- Create a front end with angular/react or .ejs to not use Postman
+- Deploy and demonstrate on Heroku
 - Write tests before development, with more time allowable
 - Tests at the function level instead of the whole app
 - greater refactoring and commentss
 - choice to save to database or files
-- improve the logger output
+- implement logger
