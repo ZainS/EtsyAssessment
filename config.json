@@ -1,0 +1,11 @@
+{"etsy":{
+    "api_key": "g3txc73pjsjr9aipyd899ws5",
+    "limit": 25,
+    "offset": 0 
+},
+"no_change":"  No changes since last file save. ",
+"first_save":"  This is the first save for ",
+"listing_change":"  Listing change: ",
+"field":"    Field: ",
+"must_be_integer" : "All Ids must be integers"
+}

@@ -1,0 +1,61 @@
+{
+  "578088760": {
+    "listing_id": 578088760,
+    "state": "active",
+    "user_id": 143250883,
+    "category_id": null,
+    "title": "rtreytrhrhrgh",
+    "description": "sdgefgbdfhbdgnhfjdfgnjdghmdgtkjstyfmjdtyk",
+    "creation_tsz": 1592055055,
+    "ending_tsz": 1602595855,
+    "original_creation_tsz": 1517923977,
+    "last_modified_tsz": 1592055055,
+    "price": "100.00",
+    "currency_code": "USD",
+    "quantity": 1,
+    "sku": [],
+    "tags": [
+      "blue"
+    ],
+    "materials": [
+      "tree"
+    ],
+    "shop_section_id": null,
+    "featured_rank": null,
+    "state_tsz": 1517946584,
+    "url": "https://www.etsy.com/listing/578088760/rtreytrhrhrgh?utm_source=rivalhound&utm_medium=api&utm_campaign=api",
+    "views": 62,
+    "num_favorers": 1,
+    "shipping_template_id": null,
+    "processing_min": 20,
+    "processing_max": 30,
+    "who_made": "i_did",
+    "is_supply": "false",
+    "when_made": "2010_2019",
+    "item_weight": null,
+    "item_weight_unit": "oz",
+    "item_length": null,
+    "item_width": null,
+    "item_height": null,
+    "item_dimensions_unit": "in",
+    "is_private": false,
+    "recipient": null,
+    "occasion": null,
+    "style": null,
+    "non_taxable": false,
+    "is_customizable": false,
+    "is_digital": false,
+    "file_data": "",
+    "should_auto_renew": true,
+    "language": "en-US",
+    "has_variations": false,
+    "taxonomy_id": 1356,
+    "taxonomy_path": [
+      "Pet Supplies",
+      "Pet Bedding",
+      "Pet Blankets"
+    ],
+    "used_manufacturer": false,
+    "is_vintage": false
+  }
+}

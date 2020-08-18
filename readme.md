@@ -21,72 +21,62 @@
 1. Installation
   a. Download or clone this repository.
   b. Run "npm install"
-  c. Run program from the command line "node index.js"
+  c. Run program from the command line "node app.js"
+  d. User must have write access to the db directory
+  e. Use Postman and make a post call
 2. Run test
   a. Run "npm tests"
   b. All results should be positive 
-3. Deployment to Heroku
+3. Deployment to AWS elastic Bean
   a. Coming Soon. 
 
-## Options
-#//TO BE DELETED
-```
-
-  Usage: node index.js [options]
-
-  Application to track etsy store listing changes
-
-
-  Options:
-
-    -V, --version      output the version number
-    -k, --apikey       Etsy API Key
-    -i, --ids <items>  Comma Separated Store IDs
-    -s, --save         Update listings in database
-    -h, --help         output usage information
-
-Examples:
-
-  $ node index.js --help
-  $ node index.js -h
-
-```
-#//Finish DELETION
 
 ## Example Execution
 
-To execute the program
-//> node index.js -k xxxxxxxxxxxxxxxxxxxxxxxx -i 17048633,17048647,17048693,17048703,17048745 --save
-```
 > node app.js
 ```
-// Go to URL 127.0.0.1:80/api/shops
+// Go to URL 127.0.0.1/api/
 POST: [17048693,17048703,17048745]
-RESPONSE & LOGS: 
+
+RESPONSE & LOGS: We provide web response and logs. 
 ```
-Shop ID 17048693
- # modified listing 591892355
-    # modified price - 24.99 => 21.99
+#3
+   This is the first save for 3
 
 
-Shop ID 17048703
-No Changes since last sync
+#17048703
+  No changes since last file save. 
 
 
-Shop ID 17048745
-No Changes since last sync
+#17048745
+  Listing change: 344343343
+     Field: ending_tsz 333  =>  444
+     Field: creation_tsz 111  =>  444
+     Field: last_modified_tsz 123  =>  444
 
-
-Shop ID 17048647
- - removed listing 578384448
-
-
-Shop ID 17048633
- - removed listing 591891271
- # modified listing 591890547
-    # modified price - 14.99 => 9.99
-    # modified quantity - 9 => 1
-
- # modified listing 578082938
-    # modified views - 1 => 3
+  Listing change: 12341235125
+     Field: creation_tsz 22  =>  33
 ```
+
+#Packages
+
+```
+"dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "deep-diff": "^0.3.8",
+    "express": "^4.17.1",
+    "mocha": "^8.1.1",
+    "winston": "^3.3.3"
+  }
+```
+
+##Improvements to be made
+- Deploy and demonstrate on AWS
+- Write tests before development, with more time allowable
+- Tests at the function level instead of the whole app
+- greater refactoring and commentss
+- choice to save to database or files
+- improve the logger output
